@@ -1,5 +1,50 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
+body {
+  width: 100%;
+}
 
-/* 回答はここに書いてね */
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.q2 {
+  background-color: #eff3f4
+}
+
+.flont-box {
+
+}
+.flont-l{
+  margin-right: 20px;
+  float: left;
+
+}
+
+.flont-r  {
+  float: right;
+  margin-left: 20px;
+}
+
+.flont-text { 
+
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  
+}
+
+p {
+  
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+}
+
+.clearfix:after {
+  height: 0;
+  display: block;
+  content: "";
+  clear: both;
+}
